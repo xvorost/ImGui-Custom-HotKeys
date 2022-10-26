@@ -5,7 +5,7 @@ Better function for ImGui HotKeys<be>
 First, add the files to your project, then add the code from the example to your main file with the ImGui loop<br>
 
 #### Example
-<pre language="cpp">
+```cpp
 #include "InputUtil.h" // including custom hotkey files
 
 bool activate = 0; // variable for action (for example activation)
@@ -16,7 +16,7 @@ if (GetKeyState(activate_bind.toInt()) & 0x8000) { if (activate == 0) activate =
 
 // in main gui     ("label", variable_keybind, margin)
 ImGuiCustom::hotkey("Keybind:", activate_bind, 100.0f);
-</pre>
+```
 
 ## Me
 in **Discord**: xvorost#5394
