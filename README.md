@@ -2,6 +2,9 @@
 Better function for ImGui HotKeys<be>
 
 ### Usage
+First, add the files to your project, then add the code from the example to your main file with the ImGui loop<br>
+
+#### Example
 <pre language="cpp">
 #include "InputUtil.h" // including custom hotkey files
 
