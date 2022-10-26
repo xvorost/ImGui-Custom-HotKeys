@@ -1,4 +1,4 @@
-# ImGui-Custom-HotKeys
+# ImGui Custom HotKeys / KeyBinds
 Better function for ImGui HotKeys<be>
 
 ### Usage
