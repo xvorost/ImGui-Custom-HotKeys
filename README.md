@@ -20,4 +20,5 @@ ImGuiCustom::hotkey("Keybind:", activate_bind, 100.0f);
 ```
 
 ## Me
-in **Discord**: xvorost#5394
+in **Discord**: xvorost#5394<br>
+My BTC address: bc1qa2gj7vqpaaeajx47y5guwdr9usv6kh253j4v34
