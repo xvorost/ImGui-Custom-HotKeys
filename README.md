@@ -1,5 +1,5 @@
 # ImGui Custom HotKeys / KeyBinds
-Better function for ImGui HotKeys<br>
+Better function for ImGui HotKeys (ImGui Keybinds)<br>
 Recommended version of ImGui: 1.83 WIP
 
 ### Usage
