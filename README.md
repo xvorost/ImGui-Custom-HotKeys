@@ -12,6 +12,7 @@ Please star and fork this repo!
 #### Example
 ```cpp
 #include "InputUtil.h" // including custom hotkey files
+#include "Hotkey.h" // including custom hotkey files
 
 bool activate = 0; // variable for action (for example activation)
 KeyBindToggle activate_bind = KeyBindToggle(KeyBind::KeyCode::INSERT); // key variable, selected default hotkey (insert)
