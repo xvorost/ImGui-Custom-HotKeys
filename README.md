@@ -2,6 +2,8 @@
 Better function for ImGui HotKeys (ImGui Keybinds)<br>
 Recommended version of ImGui: 1.83 WIP
 
+<img src="https://cdn.discordapp.com/attachments/439961603744464899/1060746182399361024/image.png"></img>
+
 ### Usage
 First, add the files to your project, then add the code from the example to your main file with the ImGui loop<br>
 
