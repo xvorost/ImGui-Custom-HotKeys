@@ -192,6 +192,26 @@ bool KeyBind::setToPressedKey() noexcept
         keyCode = KeyCode::MOUSEWHEEL_UP;
         return true;
     }
+    else if (GetKeyState(keyMap[LSHIFT].code) & 0x8000) {
+        keyCode = KeyCode::LSHIFT;
+        return true;
+    }
+    else if (GetKeyState(keyMap[LALT].code) & 0x8000) {
+        keyCode = KeyCode::LALT;
+        return true;
+    }
+    else if (GetKeyState(keyMap[LCTRL].code) & 0x8000) {
+        keyCode = KeyCode::LCTRL;
+        return true;
+    }
+    else if (GetKeyState(keyMap[MOUSE4].code) & 0x8000) {
+        keyCode = KeyCode::MOUSE4;
+        return true;
+    }
+    else if (GetKeyState(keyMap[MOUSE5].code) & 0x8000) {
+        keyCode = KeyCode::MOUSE5;
+        return true;
+    }
 
     for (int i = 0; i < IM_ARRAYSIZE(ImGui::GetIO().MouseDown); ++i) {
         if (ImGui::IsMouseClicked(i)) {
