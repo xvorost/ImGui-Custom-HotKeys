@@ -5,6 +5,8 @@ Recommended version of ImGui: 1.83 WIP
 ### Usage
 First, add the files to your project, then add the code from the example to your main file with the ImGui loop<br>
 
+Please star and fork this repo!
+
 #### Example
 ```cpp
 #include "InputUtil.h" // including custom hotkey files
