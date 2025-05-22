@@ -38,4 +38,3 @@ ImGuiCustom::hotkey("##keybind_1", activate_bind, activate_state, 100.0f, { 100.
 ## Me
 in **Discord**: xvorost#5394<br>
 in **Telegram**: X_vorost
-My BTC address: bc1qa2gj7vqpaaeajx47y5guwdr9usv6kh253j4v34
